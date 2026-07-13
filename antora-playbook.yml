@@ -64,7 +64,7 @@ content:
     branches: release
     start_path: docs
   - url: https://github.com/asciidoctor/asciidoctor-kroki
-    branches: master
+    branches: main
     start_path: docs
   - url: https://github.com/asciidoctor/asciidoctor-vscode
     branches: main
