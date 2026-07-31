@@ -6,17 +6,17 @@ assembly:
   attributes:
     asciidoctor-log-integration: ''
     preface-title: Preface@
+    toc: ''
     toclevels: 3
     outlinelevels: 4
 build:
-  dir: ~+/build/assembler-pdf
+  dir: ~+/build/assembler/pdf
   cwd: ~+
   command: >-
     bundle exec asciidoctor-pdf
     -a allow-uri-read
     -a optimize
     -a source-highlighter=rouge
-    -a toc
     -r ../ext/pdf-extensions
     --sourcemap
     --theme ../ext/pdf-theme.yml
