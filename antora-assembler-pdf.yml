@@ -2,10 +2,10 @@ component_version_filter:
   names: [asciidoc]
 assembly:
   root_level: 0
+  root_page_style: preface
   section_merge_strategy: fuse
   attributes:
     asciidoctor-log-integration: ''
-    preface-title: Preface@
     toc: ''
     toclevels: 3
     outlinelevels: 4
