@@ -1,7 +1,6 @@
 component_version_filter:
   names: [asciidoc]
 assembly:
-  root_level: 0
   root_page_style: preface
   section_merge_strategy: fuse
   attributes:
