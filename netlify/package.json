@@ -5,9 +5,10 @@
   "devDependencies": {
     "@asciidoctor/tabs": "1.0.0-beta.6",
     "antora": "latest",
-    "@antora/pdf-extension": "1.0.0-rc.11"
+    "@antora/pdf-extension": "latest"
   },
   "scripts": {
+    "reinstall": "rm -rf package-lock.json node_modules && npm i --omit=optional",
     "postinstall": "npm i --no-package-lock --prefix checklinks git+https://github.com/mojavelinux/netlify-plugin-checklinks.git#patched"
   }
 }
